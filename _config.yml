@@ -1,0 +1,29 @@
+title:            LarsBarkman.com
+description:      Exploring current topics in the field of Solutions Architecture
+url:              http://larsbarkman.github.io/
+signoff:          Lars
+disqus_shortname: # disqus comment thread for post header options. ( leave blank if unwanted. )
+facebook_appid:   # appid for like button, remove from /_includes/share.html if unwanted.
+google_analytics: # set tracking, remove from /javascripts/basic.js if unwanted.
+
+links:
+  - name:         About
+    url:          /about
+  - name:         Twitter
+    url:          https://twitter.com/larsbarkman
+    external:     true
+  - name:         GitHub
+    url:          https://github.com/LarsBarkman
+    external:     true
+  - name:         Pinterest
+    url:          https://www.pinterest.com/larsbarkman/
+    external:     true
+  - name:         LinkedIn
+    url:          https://se.linkedin.com/in/larsbarkman
+    external:     true
+highlighter:      pygments
+permalink:        pretty
+markdown:         redcarpet
+redcarpet:
+  extensions:
+    - smart
