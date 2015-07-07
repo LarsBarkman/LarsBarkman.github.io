@@ -279,7 +279,7 @@ section.post, section > p {
     -o-transition: all, 0.3s;
     transition: all, 0.3s;
     color: #606060;
-    background: #f9f9f9;
+    background: #E0E0E0;
     position: relative;
     overflow: hidden;
     display: block;
