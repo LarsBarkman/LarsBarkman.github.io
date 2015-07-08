@@ -13,7 +13,7 @@ Kent Beck have also addressed that optimization should not be done too early...
 
 > “Make It Work, Make It Right, Make It Fast”
 > 
-> - Kent Beck
+> – Kent Beck
 
 This is the quote that I have had as my main guiding principle in recent years. It brilliantly weaves together the ideas of first creating a prototype to show that the initial concept is correct, then refactor the code to "production quality" and then as a last step improve the performance if there is a concrete need for it.
 

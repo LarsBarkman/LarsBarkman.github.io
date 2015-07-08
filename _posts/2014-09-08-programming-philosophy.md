@@ -69,3 +69,5 @@ So when I now summarize my programming philosophy, I can proudly quote Sir Isaac
   - write programs that can communicate easily with other programs
   - choose to make data more complicated rather than the procedural logic of the program when faced with the choice
   - value developer time over machine time, because machine cycles in 2014 are relatively inexpensive compared to prices in the 1970s
+
+  If you think that there is something I missed or just want to get in touch, please contact me on Twitter <a href="https://twitter.com/larsbarkman" target="_blank">@larsbarkman</a>

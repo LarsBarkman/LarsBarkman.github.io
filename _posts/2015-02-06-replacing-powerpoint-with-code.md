@@ -20,3 +20,5 @@ After running the demos of the different frameworks and tinkering a bit I found 
 Why do I think it stands out? Well, all of the examples (<a title="https://github.com/hakimel/reveal.js/wiki/Example-Presentations" href="https://github.com/hakimel/reveal.js/wiki/Example-Presentations" target="_blank">https://github.com/hakimel/reveal.js/wiki/Example-Presentations</a>) looks great and that gives me confidens that the framwork actually support the presenter. The documentation seems good and the syntax clear. There is also wordpress integration (<a title="https://github.com/alleyinteractive/revealjs-wp-theme" href="https://github.com/alleyinteractive/revealjs-wp-theme" target="_blank">https://github.com/alleyinteractive/revealjs-wp-theme</a>) that would make sharing presentations on this site a breeze.
 
 I have just started making a professional presentation with reveal.js so I'll soon know how it works out...
+
+If you think that there is something I missed or just want to get in touch, please contact me on Twitter <a href="https://twitter.com/larsbarkman" target="_blank">@larsbarkman</a>
