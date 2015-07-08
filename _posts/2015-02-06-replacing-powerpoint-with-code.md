@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Replacing PowerPoint With Code?
+share: y
 ---
 
 In my professional life as an architect I do my fair amount of presentations. The way I go about building the presentations is normally by finding some old presentation I have done or maybe get a corporate presentation that looks good and then use those as the base for the new presentation (with new content of course). That is normally a pretty effective way of doing presentations but the result is always quite predictable and it does not in any way help to keep me away from the ivory towers (<a title="https://twitter.com/larsbarkman/status/559761204844195841" href="https://twitter.com/larsbarkman/status/559761204844195841" target="_blank">https://twitter.com/larsbarkman/status/559761204844195841</a>)!

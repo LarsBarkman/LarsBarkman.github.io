@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Carry-on Restrictions
+share: y
 ---
 
 In trying to find or design the <a href="http://larsbarkman.com/2015/06/08/the-ultimate-travel-bag/" target="_blank">The Ultimate Travel Bag</a> I have stated that it should be "Accepted as carry-on for all airlines worldwide" but what does mean in actual size and weight?

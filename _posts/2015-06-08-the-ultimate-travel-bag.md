@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Requirements for ”The Ultimate Travel Bag“
+share: y
 ---
 
 For a while now I've had a board on Pinterest called <a href="https://www.pinterest.com/larsbarkman/the-ultimate-travel-bag/" target="_blank">The Ultimate Travel Bag</a> where I've collected images of what I believe is the characteristics of the ultimate travel bag, but what exactly am I looking for in a bag for?!

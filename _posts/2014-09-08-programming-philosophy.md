@@ -1,6 +1,7 @@
 ---
 layout: post
 title: My Current Programming Philosophy
+share: y
 ---
 
 An articulated and communicated programming philosophy is fundamental to continuously deliver quality in "software development".
