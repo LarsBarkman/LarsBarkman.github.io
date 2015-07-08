@@ -9,8 +9,6 @@ google_analytics: # set tracking, remove from /javascripts/basic.js if unwanted.
 links:
   - name:         About
     url:          /about
-  - name:         Quotes
-    url:          /quotes
   - name:         Twitter
     url:          https://twitter.com/larsbarkman
     external:     true
@@ -23,6 +21,8 @@ links:
   - name:         LinkedIn
     url:          https://se.linkedin.com/in/larsbarkman
     external:     true
+  - name:         RSS
+    url:          /feed.xml
 highlighter:      pygments
 permalink:        pretty
 markdown:         redcarpet
