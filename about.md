@@ -3,7 +3,7 @@ layout: page
 title: About Me
 ---
 
-<img src="/images/Lars_Barkman.jpg" alt="Image Lars Barkman" style="width:226px;height:302px;">
+<img src="/images/Lars_Barkman.jpg" alt="Image Lars Barkman" style="width:158px;height:211px;">
 
 **Professionally** ([LinkedIn](https://se.linkedin.com/in/larsbarkman)), a solutions architect that loves programming and solving problems. Currently I work for SAP but this blog only contains my **personal views, thoughts and opinions**. It is not endorsed by SAP nor does it constitute any official communication of SAP.
 
