@@ -9,7 +9,7 @@ For a while now I've had a board on Pinterest called <a href="https://www.pinter
 
 These are features that I require:
 
-- Accepted as carry-on for all international and domestic airlines worldwide (see blog post: carry-on size restrictions)
+- Accepted as carry-on for all international and domestic airlines worldwide (see blog post: <a href="http://larsbarkman.com/2015/06/08/the-carry-on-restrictions/" target="_blank">Carry-on Restrictions</a> )
 - Rugged enough to withstand year in and year out of daily use
 - A style that blends in for both business and "normal vacations"
 - Can be comfortably carried as a backpack for an extended time

@@ -109,4 +109,4 @@ Apologies for that, I take the liberty to write about Doug's quote but here goes
 Another very good quote from Doug's
 > ”The notion of "intricate and beautiful complexities" is almost an oxymoron. Unix programmers vie with each other for "simple and beautiful" honors — a point that's implicit in these rules, but is well worth making overt.”
 > 
-> – Doug McIlroy</strong>
+> – Doug McIlroy
