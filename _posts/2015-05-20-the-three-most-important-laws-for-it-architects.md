@@ -1,6 +1,6 @@
 ---
 layout: post
-title: The three most important ”laws” for IT architects
+title: The Three Most Important ”Laws” for IT Architects
 ---
 
 Thera are many good laws that help us be more effective in life, but there are three laws that I think are the most important for IT architects.  
