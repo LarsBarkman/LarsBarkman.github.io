@@ -32,15 +32,15 @@ title: Building a Reasonably Priced HTPC – Introduction
 - What is required to handle e.g. Minecraft and GTA?
 
 ## Parts required
-- Motherboard
 - Graphics card 
-- CPU
-- CPU Cooler
-- Case
-- Power supply 
+- CPU & CPU Cooler
+- Motherboard
 - Memory
 - Storage
 - Blu-ray player
+- Power supply 
+- Case
+- Operating system
 - Keyboard and mouse
 - Cables and stuff
 

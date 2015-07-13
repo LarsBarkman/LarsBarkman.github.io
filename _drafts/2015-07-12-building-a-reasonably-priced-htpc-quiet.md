@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Building a Reasonably Priced HTPC – Quite
+title: Building a Reasonably Priced HTPC – Quiet
 ---
 
 ###*The key to building a quiet HTPC is to use low power parts which generate less heat and thus require less cooling leading to less noice.*
