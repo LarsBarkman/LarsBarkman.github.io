@@ -3,7 +3,7 @@ layout: post
 title: Building a Reasonably Priced HTPC – Quite
 ---
 
-###*The part to building a quiet HTPC is to use low power parts which generate less heat and thus require less cooling leading to less noice.*
+###*The key to building a quiet HTPC is to use low power parts which generate less heat and thus require less cooling leading to less noice.*
 
 ####I've read about many HTPC that make due with passiv cooling but they don't have the requirements that I do:
 - The CPU I need for Minecraft requires active cooling
