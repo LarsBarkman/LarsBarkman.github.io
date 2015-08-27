@@ -395,7 +395,7 @@ digraph AlignmentMap {
 </br>
 
 ##Generating output from the source
-After completing the needed "source code" we are now ready to generate the output.
+After completing the needed "source code" (the source can be found <a href="https://github.com/LarsBarkman/Graphviz_Models/blob/master/AlignmentMap.dot" target="_blank">here</a>) we are now ready to generate the output.
 
 Graphviz supports many output formats but I prefer SVG mainly because the generated file is searchable on the page, can be indexed and you can add functionality like e.g. adding explanatory text when "mouse-over" or add a clickable URL to both nodes and connections.
 
