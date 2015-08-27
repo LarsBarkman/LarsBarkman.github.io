@@ -289,6 +289,99 @@ digraph AlignmentMap {
 {% endhighlight %}
 </br>
 
+##Qualitative benefits validation
+I had to deviate a bit from the original model on this one and instead of coloring the area around the node I colored the node itself. The result is different and I'm not sure if it's better or worse. There might be something that could be done so it would look like the original model, but I have not had the time to dig into it.
+
+{% highlight ruby %}
+digraph AlignmentMap {
+    /*
+    /*
+    Author: Lars Barkman
+    Created: 2015-08-25
+    Changelog: See version control system
+
+    This is an example of an Alignment Map visualized with the help of Graphviz.
+    This solution depends on either generation or maintaining a .dot file and from that generating a image or document.
+    Personally, I think that editing the file by hand should be fine if the naming conventions used are intuitive.
+    Alignment maps first came to my attention on Martin Fowlers blog (http://martinfowler.com/bliki/AlignmentMap.html).
+    */
+
+    // General layout for the graph
+    rankdir=LR; // Direction of the graph Left to Right
+    node [style="rounded,filled",color=black,shape=box,fillcolor=white]; // Defines the default layout of the nodes
+    graph [style=filled, splines=line]; // Fills the subgraphs and defines the layout of the connections
+    rank = same; // Makes sure that nodes are properly aligned even without a connection
+
+    // Column for Business Outcomes
+    subgraph cluster_business_outcome {
+        label="Business Outcomes"
+        graph [color=pink];
+
+        business_outcome_Customer_Acquisition [label="Customer\nAcquisition", fillcolor=red];
+        business_outcome_Customer_Retention [label="Customer\nRetention", fillcolor=chartreuse2];
+        business_outcome_Cost_of_Operations [label="Cost of\nOperations", fillcolor=chocolate1];
+    }
+
+    // Column for IT Outcomes
+    subgraph cluster_IT_outcome {
+        label="IT Outcomes"
+        graph [color=mistyrose2];
+
+        IT_outcome_Platform_Unbundling [label="Platform\nUnbundling", fillcolor=red];
+        IT_outcome_Site_Ux [label="Site Ux", fillcolor=chartreuse2];
+        IT_outcome_Site_Performance [label="Site\nPerformance", fillcolor=chocolate1];
+        IT_outcome_Site_Scalability [label="Site\nScalability", fillcolor=chocolate1];
+    }
+
+    // Column for IT Initiatives
+    subgraph cluster_IT_initiatives {
+        label="IT Initiatives"
+        graph [color=papayawhip];
+
+        IT_initiatives_API [label="API", fillcolor=chartreuse2];
+        IT_initiatives_Pluginize [label="Pluginize", fillcolor=red];
+        IT_initiatives_Responsive_Rewrite [label="Responsive\nRewrite", fillcolor=chartreuse2];
+        IT_initiatives_Catalog_Performance [label="Catalog\nPerformance", fillcolor=red];
+        IT_initiatives_Sharding [label="Sharding", fillcolor=chocolate1];
+    }
+
+    // Column for Action Items
+    subgraph cluster_action_items {
+        label="Action Items"
+        graph [color=darkseagreen1];
+
+        action_items_0 [label="..."];
+        action_items_1 [label="..."];
+        action_items_App_X [label="App X", fillcolor=chartreuse2];
+        action_items_Search_In_One [label="Search-\nIn-One", fillcolor=red];
+        action_items_4 [label="..."];
+    }
+
+    // Connections between nodes in the different columns
+    // business_outcome_* -> IT_outcome_Platform_*
+    business_outcome_Customer_Acquisition   -> IT_outcome_Platform_Unbundling;
+    business_outcome_Customer_Acquisition   -> IT_outcome_Site_Ux;
+    business_outcome_Customer_Retention  	-> IT_outcome_Site_Ux;
+    business_outcome_Customer_Retention  	-> IT_outcome_Site_Performance;
+    business_outcome_Cost_of_Operations  	-> IT_outcome_Site_Performance;
+    business_outcome_Cost_of_Operations  	-> IT_outcome_Site_Scalability;
+    // IT_outcome_* -> IT_initiatives_*
+    IT_outcome_Platform_Unbundling          -> IT_initiatives_API;
+    IT_outcome_Platform_Unbundling          -> IT_initiatives_Pluginize;
+    IT_outcome_Site_Ux                      -> IT_initiatives_Responsive_Rewrite;
+    IT_outcome_Site_Performance             -> IT_initiatives_Catalog_Performance;
+    IT_outcome_Site_Scalability             -> IT_initiatives_Sharding;
+    // IT_initiatives_* -> action_items_*
+    IT_initiatives_API                      -> action_items_0;
+    IT_initiatives_Pluginize                -> action_items_1;
+    IT_initiatives_Responsive_Rewrite       -> action_items_App_X;
+    IT_initiatives_Catalog_Performance      -> action_items_Search_In_One;
+    IT_initiatives_Sharding                 -> action_items_4;
+
+}
+{% endhighlight %}
+</br>
+
 ##Generating output from the source
 After completing the needed "source code" we are now ready to generate the output.
 
@@ -299,6 +392,17 @@ If at command line you are standing in the folder where the source file is locat
 {% highlight ruby %}
 dot -T svg AlignmentMap.dot -o AlignmentMap.svg
 {% endhighlight %}
+
+In the final result below I choose to generate and show a png-image just for convenience and as you can see the only tweek I had to do was changing the type of file output and the file ending.
+
+{% highlight ruby %}
+dot -T png AlignmentMap.dot -o AlignmentMap.png
+{% endhighlight %}
+</br>
+
+##The final result
+<img src="/images/AlignmentMap.png" alt="The final result">
+</br>
 
 This was actually all it took to generate a basic Alignment Map. We did everything manually but there is nothing preventing this file from being generated (to various degree depending on the data accessible) by e.g. <a href="https://pypi.python.org/pypi/graphviz" target="_blank">a Python script</a> based on data from other systems.
 
