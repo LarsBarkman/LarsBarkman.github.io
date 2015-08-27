@@ -42,6 +42,7 @@ title: Building a Reasonably Priced HTPC – Introduction
 - Case
 - Operating system
 - Keyboard and mouse
+- Software
 - Cables and stuff
 
 ## Execution

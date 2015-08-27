@@ -80,7 +80,7 @@ header {
 
 footer {
   width: 100%;
-  max-width: 600px;
+  max-width: 700px;
   line-height: 2em;
   margin: auto;
   padding-bottom: 30px;
@@ -94,7 +94,7 @@ footer {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
   width: 100%;
-  max-width: 600px;
+  max-width: 700px;
   background: #fff;
   margin: 40px auto 20px;
   border-radius: 7px;
