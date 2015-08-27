@@ -11,6 +11,7 @@ A bit simplified the concept is to map and visulize business outcomes to action 
 In a <a href="https://twitter.com/larsbarkman/status/633918729542336512" target="_blank">tweet</a> after reading the post I stated that Git, Graphviz and a text editor was the only tools needed to produce and maintain alignment maps and in this post I'll show you how to create an alignment map with <a href="http://www.graphviz.org/" target="_blank">Graphviz</a>.
 
 <img src="/images/Tweet_AlignmentMaps.png" alt="Tweet Alignment Maps">
+</br></br>
 
 ##What is Graphviz (<a href="http://www.graphviz.org/" target="_blank">source</a>)?
 Graphviz is open source graph visualization software. Graph visualization is a way of representing structural information as diagrams of abstract graphs and networks. It has important applications in networking, bioinformatics,  software engineering, database and web design, machine learning, and in visual interfaces for other technical domains. 
@@ -18,9 +19,20 @@ Graphviz is open source graph visualization software. Graph visualization is a w
 The Graphviz layout programs take descriptions of graphs in a simple text language, and make diagrams in useful formats, such as images and SVG for web pages; PDF or Postscript for inclusion in other documents; or display in an interactive graph browser.  Graphviz has many useful features for concrete diagrams, such as options for colors, fonts, tabular node layouts, line styles, hyperlinks, and custom shapes.
 
 ***Note: For instructions on installing Graphviz, please see this <a href="http://www.graphviz.org/Download..php" target="_blank">page</a>.***
-</br>
+</br></br>
+
+##Why Graphviz?
+There are a number of reasons why I prefer a solutions like Graphviz over e.g. Microsoft Visio.
+
+- I like the modell of authors not having to worry too much about the appearance of their graphs but to concentrate on getting the right content
+- One source file can generate a multitude of output formats based on the content
+- If you make changes to the content you don't have to worry about realigning everything by hand
+- Major changes to the content and layout can be done with all the power of great text editors e.g. VIM or Emacs
+</br></br>
 
 ##Layout components of an Alignment Map
+If we break the model down into it's components we find these pretty simple parts and it's them we need to construct with the help of Graphviz.
+
 - Four columns, each with a label and color
 - "Nodes" for outcome/initiativ/actions, each with a label and color 
 - Directional connections between the nodes
@@ -361,10 +373,10 @@ digraph AlignmentMap {
     // business_outcome_* -> IT_outcome_Platform_*
     business_outcome_Customer_Acquisition   -> IT_outcome_Platform_Unbundling;
     business_outcome_Customer_Acquisition   -> IT_outcome_Site_Ux;
-    business_outcome_Customer_Retention  	-> IT_outcome_Site_Ux;
-    business_outcome_Customer_Retention  	-> IT_outcome_Site_Performance;
-    business_outcome_Cost_of_Operations  	-> IT_outcome_Site_Performance;
-    business_outcome_Cost_of_Operations  	-> IT_outcome_Site_Scalability;
+    business_outcome_Customer_Retention		-> IT_outcome_Site_Ux;
+    business_outcome_Customer_Retention		-> IT_outcome_Site_Performance;
+    business_outcome_Cost_of_Operations		-> IT_outcome_Site_Performance;
+    business_outcome_Cost_of_Operations		-> IT_outcome_Site_Scalability;
     // IT_outcome_* -> IT_initiatives_*
     IT_outcome_Platform_Unbundling          -> IT_initiatives_API;
     IT_outcome_Platform_Unbundling          -> IT_initiatives_Pluginize;
