@@ -9,8 +9,8 @@ google_analytics: # set tracking, remove from /javascripts/basic.js if unwanted.
 links:
   - name:         Blog
     url:          /
-  - name:         whoami
-    url:          /whoami
+  - name:         Whoami
+    url:          /Whoami
   - name:         Twitter
     url:          https://twitter.com/larsbarkman
     external:     true
