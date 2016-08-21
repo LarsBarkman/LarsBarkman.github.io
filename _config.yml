@@ -25,7 +25,7 @@ links:
     external:     true
   - name:         RSS
     url:          /feed.xml
-highlighter:      pygments
+highlighter:      rouge
 permalink:        pretty
 redcarpet:
   extensions: ["smart", "no_intra_emphasis", "fenced_code_blocks", "autolink", "tables", "strikethrough", "superscript", "with_toc_data"]
