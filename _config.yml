@@ -24,7 +24,7 @@ links:
     url:          https://se.linkedin.com/in/larsbarkman
     external:     true
   - name:         GUARDIAN
-    url:          https://github.com/LarsBarkman/guardian/blob/master/README.md
+    url:          http://larsbarkman.com/guardian/
     external:     true
   - name:         RSS
     url:          /feed.xml
